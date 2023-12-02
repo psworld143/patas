@@ -134,7 +134,7 @@ if ($result = $con->query($query)) {
                      <a href="course.php" class="nav-link">
                         <img src="../asset/img/course.png" width="30">
                         <p>
-                           Course
+                           Divisions
                         </p>
                      </a>
                   </li>
@@ -232,7 +232,7 @@ if ($result = $con->query($query)) {
                               <th>Entry Number</th>
                               <th>Age</th>
                               <th>Gender</th>
-                              <th>Course</th>
+                              <th>Divisions</th>
                               <th>Personal Background</th>
                               <th class="text-center">Action</th>
                            </tr>
@@ -331,11 +331,11 @@ if ($result = $con->query($query)) {
                               </div>
                               </div><div class="col-md-4">
                                  <div class="form-group">
-                                 <label class="float-left">Course</label>
+                                 <label class="float-left">Divisions</label>
                                  <select class="form-control">
-                                    <option>Course 1</option>
-                                    <option>Course 2</option>
-                                    <option>Course 3</option>
+                                    <option>Divisions 1</option>
+                                    <option>Divisions 2</option>
+                                    <option>Divisions 3</option>
                                  </select>
                               </div>
                               </div>
@@ -422,7 +422,7 @@ if ($result = $con->query($query)) {
                               </div>
                               <div class="col-md-4">
                                  <div class="form-group">
-                                 <label class="float-left">Course</label>
+                                 <label class="float-left">Divisions</label>
                                  <select class="form-control" name="course">
                                     <?php
                                        $query = "SELECT * FROM courses ORDER by course_name ASC";

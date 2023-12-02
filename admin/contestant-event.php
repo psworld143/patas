@@ -134,7 +134,7 @@ if ($result = $con->query($query)) {
                      <a href="course.php" class="nav-link">
                         <img src="../asset/img/course.png" width="30">
                         <p>
-                           Course
+                           Divisions
                         </p>
                      </a>
                   </li>
@@ -272,7 +272,7 @@ if ($result = $con->query($query)) {
          <div class="modal-content">
             <div class="modal-body text-center">
                <img src="../asset/img/sent.png" alt="" width="50" height="46">
-               <h3>Are you sure want to delete this Course?</h3>
+               <h3>Are you sure want to delete this Divisions?</h3>
                <div class="m-t-20">
                   <a href="#" class="btn btn-white" data-dismiss="modal">Close</a>
                   <button type="submit" class="btn btn-danger">Delete</button>

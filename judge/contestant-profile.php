@@ -96,7 +96,7 @@ include '../includes/dbcon.php';
                      <a href="yourscores.php" class="nav-link">
                         <img src="../asset/img/score.png" width="30">
                         <p>
-                          Your Scores
+                          Your Scorings
                         </p>
                      </a>
                   </li>
@@ -160,7 +160,7 @@ include '../includes/dbcon.php';
                                              <td><p>'.$row['age'].' </p></td>
                                           </tr>
                                           <tr>
-                                             <td><p>Course: </p></td>
+                                             <td><p>Representing: </p></td>
                                              <td><p>'.$row['course_name'].'</p></td>
                                           </tr>
                                           <tr>

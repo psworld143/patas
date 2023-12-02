@@ -109,7 +109,7 @@ if ($result = $con->query($query)) {
                      <a href="yourscores.php" class="nav-link">
                         <img src="../asset/img/score.png" width="30">
                         <p>
-                          Your Scores
+                          Your Scorings
                         </p>
                      </a>
                   </li>

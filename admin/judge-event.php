@@ -131,7 +131,7 @@ if ($result = $con->query($query)) {
                      <a href="course.php" class="nav-link">
                         <img src="../asset/img/course.png" width="30">
                         <p>
-                           Course
+                           Divisions
                         </p>
                      </a>
                   </li>

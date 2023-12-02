@@ -120,7 +120,7 @@ if ($result = $con->query($query)) {
                      <a href="yourscores.php" class="nav-link">
                         <img src="../asset/img/score.png" width="30">
                         <p>
-                           Your Scores
+                           Your Scorings
                         </p>
                      </a>
                   </li>
@@ -135,12 +135,12 @@ if ($result = $con->query($query)) {
             <div class="container-fluid">
                <div class="row mb-2">
                   <div class="col-sm-6">
-                     <h1 class="m-0"><img src="../asset/img/score.png" width="40"> Your Scores</h1>
+                     <h1 class="m-0"><img src="../asset/img/score.png" width="40"> Your Scorings</h1>
                   </div>
                   <div class="col-sm-6">
                      <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Your Scores</li>
+                        <li class="breadcrumb-item active">Your Scorings</li>
                      </ol>
                   </div>
                </div>
@@ -278,7 +278,7 @@ if ($result = $con->query($query)) {
          <div class="modal-content">
             <div class="modal-body text-center">
                <img src="../asset/img/sent.png" alt="" width="50" height="46">
-               <h3>Are you sure want to delete this Course?</h3>
+               <h3>Are you sure want to delete this Divisions?</h3>
                <div class="m-t-20">
                   <a href="#" class="btn btn-white" data-dismiss="modal">Close</a>
                   <button type="submit" class="btn btn-danger">Delete</button>
@@ -296,13 +296,13 @@ if ($result = $con->query($query)) {
                      <div class="row">
                         <div class="col-md-12">
                            <div class="card-header">
-                              <h5><img src="../asset/img/course.png" width="40"> Course Information</h5>
+                              <h5><img src="../asset/img/course.png" width="40"> Divisions Information</h5>
                            </div>
                            <div class="row">
                               <div class="col-md-12">
                                  <div class="form-group">
-                                    <label class="float-left">Course Name</label>
-                                    <input type="text" class="form-control" placeholder="Course Name">
+                                    <label class="float-left">Divisions Name</label>
+                                    <input type="text" class="form-control" placeholder="Divisions Name">
                                  </div>
                               </div>
                               <div class="col-md-12">
@@ -334,13 +334,13 @@ if ($result = $con->query($query)) {
                      <div class="row">
                         <div class="col-md-12">
                            <div class="card-header">
-                              <h5><img src="../asset/img/course.png" width="40"> Course Information</h5>
+                              <h5><img src="../asset/img/course.png" width="40"> Divisions Information</h5>
                            </div>
                            <div class="row">
                               <div class="col-md-12">
                                  <div class="form-group">
-                                    <label class="float-left">Course Name</label>
-                                    <input type="text" class="form-control" placeholder="Course Name">
+                                    <label class="float-left">Divisions Name</label>
+                                    <input type="text" class="form-control" placeholder="Divisions Name">
                                  </div>
                               </div>
                               <div class="col-md-12">
