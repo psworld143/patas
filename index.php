@@ -39,7 +39,7 @@ session_start();
          <div class="card card-outline card-danger">
             <div class="card-header text-center">
                <a href="index.php" class="brand-link">
-               <img src="asset/img/seait.png" alt="DSMS Logo" width="200">
+               <img src="asset/img/seait.png" alt="PATAS Logo" width="200">
                </a>
             </div>
             <div class="card-body" >
@@ -75,7 +75,7 @@ session_start();
                   </div>
                   <div class="row">
                      <div class="col-6 offset-3">
-                        <button type="submit" class="btn btn-block btn-bg" style="background-color: orange;color: rgb(249, 249, 249)">Login</button>
+                        <button type="submit" class="btn btn-block btn-bg" style="background-color: orange;color: rgb(249, 249, 249); width: 100%;">Login</button>
                         <br>
                         <p style="text-align: center;">Or</p>
                         <center><p> <span> <a href="signup.php" >Judge Registration</a></span></p></center>
